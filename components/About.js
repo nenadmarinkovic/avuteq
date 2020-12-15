@@ -31,7 +31,7 @@ function About() {
               </p>
 
               <p>
-                Searches conducted start at senior level IC`s through to
+                Searches conducted start at senior level IC's through to
                 Director level and CPO, CTO and CXO.
               </p>
             </FlexMain>

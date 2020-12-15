@@ -61,7 +61,7 @@ function How() {
               </Icon>
             </FlexTop>
             <FlexText>
-              Avuteq has undertaken 100`s of projects from individual hires to
+              Avuteq has undertaken hundreds of projects from individual hires to
               50+ project hiring solutions From 1 to 10 specialists we can embed
               to your team to the scale that you require.
             </FlexText>

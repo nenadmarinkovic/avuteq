@@ -21,10 +21,10 @@ function Footer() {
             <FlexItem>
                 <Title>Avuteq, Global Technology Stuffing Solutions</Title>
               <Text>
-                Not only do we not discriminate over age, race, gender , we
+                Not only do we not discriminate over age, race, gender, we
                 actively celebrate and encourage diversity. We actively accept
                 job applications from individuals from all corners of the globe
-                and all walks of life so don`t be shy.
+                and all walks of life.
               </Text>
               <Social>
                 <div>
