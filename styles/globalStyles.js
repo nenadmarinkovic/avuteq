@@ -82,7 +82,13 @@ const GlobalStyle = createGlobalStyle`
   .container {
     width: 1140px;
     max-width: 100%;
-	margin: 0px auto;
+	  margin: 0px auto;
+  }
+
+  .container-slider {
+    width: 840px;
+    max-width: 100%;
+	  margin: 0px auto;
   }
 
   .padding-top-100 {
@@ -96,17 +102,27 @@ const GlobalStyle = createGlobalStyle`
   .Count {
     padding: 2rem;
     margin: 1rem;
-
     border-radius: 2em;
     box-shadow: 1px 2px 2px #0D3B66;
     background-color: #FAF0CA;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     color: #0D3B66;
 }
+
+.slick-slider {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+ 
+}
+
 
 `;
 

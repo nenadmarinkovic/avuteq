@@ -13,8 +13,8 @@ function Header() {
       </Logo>
       <HeaderItems>
         <HeaderItem>About us</HeaderItem>
-        <HeaderItem>Partners</HeaderItem>
         <HeaderItem>How We Work</HeaderItem>
+        <HeaderItem>Partners</HeaderItem>
         <HeaderItem>Get In Touch</HeaderItem>
       </HeaderItems>
       </HeaderContainer>

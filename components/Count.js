@@ -11,7 +11,7 @@ const Count = ({ className, ...rest }) => {
         return (
           <VisibilitySensor
             active={!viewPortEntered}
-            onChange={isVisible => {
+            onChange={(isVisible) => {
               if (isVisible) {
                 setViewPortEntered(true);
               }

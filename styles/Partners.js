@@ -30,9 +30,3 @@ export const CountWrap = styled.div`
   display: flex;
   align-items: center;
 `;
-
-
-export const Companies = styled.div`
-  padding-top: 160px;
-  height: 400px
-`;
