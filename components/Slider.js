@@ -187,7 +187,7 @@ export default function SimpleSlider() {
             </svg>
           </div>
           <SliderText>
-            I`ve invited Avuteq and Jamie to help OLX Brazil find talented
+            I've invited Avuteq and Jamie to help OLX Brazil find talented
             product executives across the globe. Traditionally we’ve been
             focusing our search locally and he helped us establish a new global
             process and better candidate experience. Jamie is very knowledgeable
