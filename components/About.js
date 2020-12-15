@@ -346,7 +346,7 @@ function About() {
             </svg>
           </FlexIllustration>
           <FlexText className="margin-left-85">
-            <FlexTitle>DIVERSE</FlexTitle>
+            <FlexTitle>DIVERSITY</FlexTitle>
             <FlexMain>
               <FlexBig>Gender progressive</FlexBig>
               <p>
