@@ -13,7 +13,7 @@ import { Title } from "../styles/About";
 function How() {
   return (
     <Wrap>
-      <Title>How We Work</Title>
+      <Title id="how">How We Work</Title>
       <div className="container">
         <FlexItems>
           <FlexItem>
@@ -61,9 +61,9 @@ function How() {
               </Icon>
             </FlexTop>
             <FlexText>
-              Avuteq has undertaken hundreds of projects from individual hires to
-              50+ project hiring solutions From 1 to 10 specialists we can embed
-              to your team to the scale that you require.
+              Avuteq has undertaken hundreds of projects from individual hires
+              to 50+ project hiring solutions From 1 to 10 specialists we can
+              embed to your team to the scale that you require.
             </FlexText>
           </FlexItem>
           <FlexItem>

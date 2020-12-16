@@ -5,12 +5,12 @@ import { Wrap, Flex } from "../styles/Companies";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
-  return <div style={{display: "none"}}></div>;
+  return <div style={{ display: "none" }}></div>;
 }
 
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
-  return <div style={{display: "none"}}></div>;
+  return <div style={{ display: "none" }}></div>;
 }
 
 class Companies extends React.Component {
@@ -34,7 +34,7 @@ class Companies extends React.Component {
       ],
     };
     return (
-      <div className="container">
+      <div className="container" id="partners">
         <Wrap>
           <Slider {...settings}>
             <Flex>

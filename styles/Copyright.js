@@ -19,3 +19,12 @@ export const Created = styled.div`
   padding-top: 10px;
   padding-bottom: 15px;
 `;
+
+export const Website = styled.a`
+  transition: 0.3s;
+
+  :hover {
+    cursor: pointer;
+    color: #ea5730;
+  }
+`;

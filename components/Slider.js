@@ -1,12 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
-import { Wrap, Comment, SliderText, DownText } from "../styles/SliderComments";
+import { Wrap, Comment, SliderText, DownText, SVG } from "../styles/Slider";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div className={className} onClick={onClick}>
-      <svg
+      <SVG
         width="30px"
         height="30px"
         version="1.1"
@@ -40,7 +40,7 @@ function SampleNextArrow(props) {
         <g></g>
         <g></g>
         <g></g>
-      </svg>
+      </SVG>
     </div>
   );
 }
@@ -49,7 +49,7 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div className={className} onClick={onClick}>
-      <svg
+      <SVG
         width="30px"
         height="30px"
         viewBox="0 0 477 477"
@@ -58,26 +58,21 @@ function SamplePrevArrow(props) {
           marginRight: "30px",
           cursor: "pointer",
         }}
-        fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g clipPath="url(#clip0)">
-          <path
-            d="M130.607 107.5L151.819 128.713L57.426 223.107H476.213V253.107H57.426L151.819 347.5L130.607 368.713L0 238.106L130.607 107.5Z"
-            fill="black"
-          />
+          <path d="M130.607 107.5L151.819 128.713L57.426 223.107H476.213V253.107H57.426L151.819 347.5L130.607 368.713L0 238.106L130.607 107.5Z" />
         </g>
         <defs>
           <clipPath id="clip0">
             <rect
               width="476.213"
               height="476.213"
-              fill="white"
               transform="matrix(-1 0 0 1 476.213 0)"
             />
           </clipPath>
         </defs>
-      </svg>
+      </SVG>
     </div>
   );
 }

@@ -5,6 +5,7 @@ import {
   ButtonWrap,
   Button,
 } from "../styles/Banner";
+import ScrollIntoView from "react-scroll-into-view";
 
 function Banner() {
   return (
@@ -14,7 +15,9 @@ function Banner() {
         technology platforms
       </BannerText>
       <ButtonWrap>
-        <Button>Learn More</Button>
+        <ScrollIntoView selector="#about" smooth={true}>
+          <Button>Learn More</Button>
+        </ScrollIntoView>
       </ButtonWrap>
     </BannerContainer>
   );

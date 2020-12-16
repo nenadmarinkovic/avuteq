@@ -10,6 +10,14 @@ export const Wrap = styled.div`
 `;
 
 export const FooterWrap = styled.div``;
+
+export const SVG = styled.svg`
+  transition: 0.3s;
+  :hover {
+    cursor: pointer;
+    fill: #ea5730;
+  }
+`;
 export const Title = styled.div`
   font-size: 32px;
   margin-top: 15px;
@@ -18,7 +26,7 @@ export const Title = styled.div`
 `;
 export const Footer = styled.div``;
 export const Social = styled.div`
-margin-top: 25px;
+  margin-top: 25px;
   display: flex;
   width: 80px;
   align-items: center;
@@ -36,6 +44,12 @@ export const Mail = styled.div`
   font-weight: bold;
   font-family: "Sofia Pro", sans-serif;
   font-size: 19px;
+  transition: 0.3s;
+
+  :hover {
+    cursor: pointer;
+    color: #ea5730;
+  }
 `;
 
 export const Text = styled.div`

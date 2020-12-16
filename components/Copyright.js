@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrap, Created } from "../styles/Copyright";
+import { Wrap, Created, Website } from "../styles/Copyright";
 
 function Copyright() {
   return (
@@ -8,14 +8,14 @@ function Copyright() {
       <br />
       <Created>
         Design and development:{" "}
-        <a
+        <Website
           className="created"
           rel="noreferrer"
           target="_blank"
           href="https://nenadmarinkovic.com"
         >
           nenadmarinkovic.com
-        </a>
+        </Website>
       </Created>
     </Wrap>
   );

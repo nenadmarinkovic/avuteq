@@ -23,3 +23,11 @@ export const DownText = styled.div`
   font-weight: 300;
   margin-top: 30px;
 `;
+
+export const SVG = styled.svg`
+  transition: 0.3s;
+  :hover {
+    cursor: pointer;
+    fill: #ea5730;
+  }
+`;

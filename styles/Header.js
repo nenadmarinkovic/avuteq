@@ -4,7 +4,11 @@ export const Wrap = styled.div`
   border-bottom: 1px solid #eaeaea;
 `;
 
-export const Logo = styled.div``;
+export const Logo = styled.div`
+  :hover {
+    cursor: pointer;
+  }
+`;
 
 export const HeaderItems = styled.div`
   display: flex;
@@ -16,6 +20,12 @@ export const HeaderItem = styled.div`
   font-size: 15px;
   font-family: "Sofia Pro";
   font-weight: 600;
+  transition: 0.3s;
+
+  :hover {
+    color: #ea5730;
+    cursor: pointer;
+  }
 `;
 
 export const HeaderContainer = styled.div`
