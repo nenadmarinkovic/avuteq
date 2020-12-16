@@ -92,6 +92,8 @@ export const TextArea = styled.textarea`
   white-space: normal;
   background: none;
   line-height: 1;
+  padding: 10px;
+  line-height: 1.6;
   border-radius: 8px;
   width: 70%;
   font-size: 1rem;
