@@ -9,6 +9,7 @@ import {
   FlexText,
   FlexIllustration,
 } from "../styles/About";
+import Fade from 'react-reveal/Fade';
 
 function About() {
   return (
@@ -18,6 +19,7 @@ function About() {
         <FlexItem>
           <FlexText>
             <FlexTitle>SEARCHING</FlexTitle>
+           
             <FlexMain>
               <FlexBig>
                 Sourcing the most talented technology focused senior profiles
@@ -35,7 +37,9 @@ function About() {
                 Director level and CPO, CTO and CXO.
               </p>
             </FlexMain>
+        
           </FlexText>
+          <Fade bottom duration={300} delay={500}>
           <FlexIllustration>
             <svg
               width="400"
@@ -186,9 +190,11 @@ function About() {
               />
             </svg>
           </FlexIllustration>
+          </Fade>
         </FlexItem>
 
         <FlexItem className="padding-top-100">
+        <Fade bottom duration={300} delay={500}>
           <FlexIllustration>
             <svg
               width="480"
@@ -345,6 +351,7 @@ function About() {
               </defs>
             </svg>
           </FlexIllustration>
+          </Fade>
           <FlexText className="margin-left-85">
             <FlexTitle>DIVERSITY</FlexTitle>
             <FlexMain>
