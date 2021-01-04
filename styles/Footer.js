@@ -35,9 +35,17 @@ export const Social = styled.div`
 export const FlexItems = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 960px) {
+    flex-direction: column;
+  }
 `;
 export const FlexItem = styled.div`
   width: 45%;
+
+  @media (max-width: 960px) {
+    width: 100%;
+  }
 `;
 export const Mail = styled.div`
   margin-top: 25px;

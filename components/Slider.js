@@ -1,12 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
-import { Wrap, Comment, SliderText, DownText, SVG } from "../styles/Slider";
+import { Wrap, Comment, SliderText, DownText, SVGLeft, SVGRight } from "../styles/Slider";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div className={className} onClick={onClick}>
-      <SVG
+      <SVGRight
         width="30px"
         height="30px"
         version="1.1"
@@ -17,7 +17,7 @@ function SampleNextArrow(props) {
         viewBox="0 0 476.213 476.213"
         style={{
           enableBackground: "new 0 0 476.213 476.213",
-          marginLeft: "30px",
+       
           cursor: "pointer",
         }}
       >
@@ -40,7 +40,7 @@ function SampleNextArrow(props) {
         <g></g>
         <g></g>
         <g></g>
-      </SVG>
+      </SVGRight>
     </div>
   );
 }
@@ -49,13 +49,13 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div className={className} onClick={onClick}>
-      <SVG
+      <SVGLeft
         width="30px"
         height="30px"
         viewBox="0 0 477 477"
         style={{
           enableBackground: "new 0 0 476.213 476.213",
-          marginRight: "30px",
+         
           cursor: "pointer",
         }}
         xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ function SamplePrevArrow(props) {
             />
           </clipPath>
         </defs>
-      </SVG>
+      </SVGLeft>
     </div>
   );
 }

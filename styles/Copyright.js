@@ -11,6 +11,10 @@ export const Wrap = styled.div`
   @media (max-width: 1045px) {
     padding-top: 75px;
   }
+
+  @media (max-width: 520px) {
+    padding-top: 25px;
+   }
 `;
 
 export const Created = styled.div`

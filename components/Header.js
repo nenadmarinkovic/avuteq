@@ -7,8 +7,10 @@ import {
   Logo,
   HeaderItems,
   HeaderItem,
+  MenuDiv,
 } from "../styles/Header";
 import ScrollIntoView from "react-scroll-into-view";
+import Menu from "./Menu";
 
 function Header() {
   return (
@@ -18,9 +20,8 @@ function Header() {
           <Logo>
             <Link href="/">
               <a>
-              <Image src="/logo.png" width={148} height={38}/>
+                <Image src="/logo.png" width={148} height={38} />
               </a>
-            
             </Link>
           </Logo>
           <HeaderItems>
@@ -40,6 +41,9 @@ function Header() {
               <HeaderItem>Get In Touch</HeaderItem>
             </ScrollIntoView>
           </HeaderItems>
+          <MenuDiv>
+            <Menu />
+          </MenuDiv>
         </HeaderContainer>
       </div>
     </Wrap>

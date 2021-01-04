@@ -2,14 +2,20 @@ import styled from "styled-components";
 
 export const Wrap = styled.div`
   padding: 30px 0 120px;
+
+  @media (max-width: 960px) {
+    padding: 30px 0 0;
+  }
 `;
 
 export const Title = styled.div`
   font-size: 42px;
   text-align: center;
-  padding: 40px 0;
+  padding-top: 40px;
   font-family: "Sofia Pro";
   font-weight: 600;
+
+ 
 `;
 
 export const FlexItem = styled.div`
@@ -17,13 +23,24 @@ export const FlexItem = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 960px) {
+    flex-direction: column-reverse;
+    margin-top: 30px;
+  }
 `;
 
 export const FlexText = styled.div`
   width: 55%;
+
+  @media (max-width: 960px) {
+    width: 100%;
+  }
 `;
 
-export const FlexIllustration = styled.div``;
+export const FlexIllustration = styled.div`
+
+`;
 
 export const FlexTitle = styled.div`
   color: #ea5730;
@@ -49,4 +66,21 @@ export const FlexMain = styled.div`
   font-size: 18px;
   line-height: 1.8;
   font-weight: 300;
+`;
+
+export const SVG = styled.svg`
+  width: 400px;
+  height: 400px;
+
+  @media (max-width: 720px) {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 530px) {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+  }
 `;

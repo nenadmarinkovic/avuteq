@@ -20,6 +20,18 @@ export const BannerText = styled.div`
   padding: 28px 30px 50px;
   background: white;
   color: #17262e;
+
+  @media (max-width: 960px) {
+    font-size: 32px;
+  }
+
+  @media (max-width: 520px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 380px) {
+    font-size: 23px;
+  }
 `;
 
 export const ButtonWrap = styled.div`

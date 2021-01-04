@@ -82,21 +82,46 @@ const GlobalStyle = createGlobalStyle`
   .container {
     width: 1140px;
     max-width: 100%;
-	  margin: 0px auto;
+    margin: 0px auto;
+
+    @media (max-width: 1240px) {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    
+  }
+
+  .no-margins {
+    margin: 0 !important;
   }
 
   .container-slider {
     width: 840px;
     max-width: 100%;
-	  margin: 0px auto;
+    margin: 0px auto;
+
+    @media (max-width: 960px) {
+       width: 100%;
+       padding-right: 20px;
+       padding-left: 20px;
+     }
+    
   }
 
   .padding-top-100 {
-	  padding-top: 100px;
+    padding-top: 100px;
+
+    @media (max-width: 960px) {
+      padding-top: 20px;
+     }
   }
 
   .margin-left-85 {
-	  margin-left: 85px;
+    margin-left: 85px;
+
+    @media (max-width: 1240px) {
+      margin-left: 0;
+     }
   }
 
   .Count {
@@ -120,7 +145,6 @@ const GlobalStyle = createGlobalStyle`
 .slick-track {
   display: flex;
   align-items: center;
- 
 }
 
 

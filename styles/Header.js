@@ -13,6 +13,18 @@ export const Logo = styled.div`
 export const HeaderItems = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 620px) {
+    display: none;
+  }
+`;
+
+export const MenuDiv = styled.div`
+  display: none;
+
+  @media (max-width: 620px) {
+    display: unset;
+  }
 `;
 
 export const HeaderItem = styled.div`

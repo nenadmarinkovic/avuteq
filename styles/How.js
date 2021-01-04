@@ -10,6 +10,10 @@ export const FlexItems = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1240px) {
+    flex-direction: column;
+  }
 `;
 
 export const FlexItem = styled.div`
@@ -18,6 +22,11 @@ export const FlexItem = styled.div`
   width: 30%;
   padding: 40px 20px 80px 20px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 5px 10px;
+
+  @media (max-width: 1240px) {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 `;
 
 export const FlexTop = styled.div`
