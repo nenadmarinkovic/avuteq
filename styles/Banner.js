@@ -23,6 +23,7 @@ export const BannerText = styled.div`
 
   @media (max-width: 960px) {
     font-size: 32px;
+    width: 100%;
   }
 
   @media (max-width: 520px) {

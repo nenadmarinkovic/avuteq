@@ -7,6 +7,7 @@ import Partners from "../components/Partners";
 import How from "../components/How";
 import Clients from "../components/Clients";
 import Footer from "../components/Footer";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Header />
       <Banner />
       <About />
+      <Projects/>
       <Partners />
       <How />
       <Clients />

@@ -14,7 +14,7 @@ export const HeaderItems = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 620px) {
+  @media (max-width: 820px) {
     display: none;
   }
 `;
@@ -22,7 +22,7 @@ export const HeaderItems = styled.div`
 export const MenuDiv = styled.div`
   display: none;
 
-  @media (max-width: 620px) {
+  @media (max-width: 820px) {
     display: unset;
   }
 `;

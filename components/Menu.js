@@ -33,6 +33,10 @@ const MenuComponent = ({ open, setOpen }) => {
               <HeaderItem>About us</HeaderItem>
             </ScrollIntoView>
 
+            <ScrollIntoView selector="#projects" smooth={true}>
+              <HeaderItem>Projects</HeaderItem>
+            </ScrollIntoView>
+
             <ScrollIntoView selector="#how" smooth={true}>
               <HeaderItem>How We Work</HeaderItem>
             </ScrollIntoView>
