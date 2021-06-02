@@ -30,7 +30,7 @@ function Header() {
             </ScrollIntoView>
 
             <ScrollIntoView selector="#projects" smooth={true}>
-              <HeaderItem>Projects</HeaderItem>
+              <HeaderItem>Our projects</HeaderItem>
             </ScrollIntoView>
 
             <ScrollIntoView selector="#how" smooth={true}>

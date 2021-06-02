@@ -14,7 +14,7 @@ function Projects() {
   return (
     <Wrap>
       <div className="container">
-        <Title id="projects">Projects</Title>
+        <Title id="projects">Our projects</Title>
         <FlexItem>
           <FlexText>
         
